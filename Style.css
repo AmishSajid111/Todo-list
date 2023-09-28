@@ -1,0 +1,36 @@
+body{
+ 
+
+    background-image: linear-gradient(to right bottom , rgb(255, 0, 0),rgb(14, 77, 136));
+
+    background-repeat: no-repeat;
+  
+    height:96.1vh;
+    background-size: cover;
+}
+.container
+{
+    max-width:400px;
+   
+}
+
+input[type=text],
+input[type=text]:focus{
+    color:rgb(255, 255, 255);
+    border:none;
+    background: rgba(184, 174, 174, 0.2);
+    max-width:400px;
+   
+}
+.todos li{
+    background-color: #12085013;
+    color: white;
+}
+.delete
+{
+    cursor:pointer;
+}
+.filtered
+{
+    display: none !important;
+}
